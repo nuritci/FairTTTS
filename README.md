@@ -45,7 +45,7 @@ python FairTTTSRF.py --alpha 7
 ```
 
 ## Data
-The `Data` folder contains benchmark datasets used for evaluating FairTTTS. These include commonly used datasets for fairness research such as `adult.csv` and `compas-scores-two-years_v1.csv`.
+The `Data` folder contains benchmark datasets used for evaluating FairTTTS. These include commonly used datasets for fairness research such as `adult.csv` and `compas-scores-two-years_v1.csv`. Once running the code locally, the path should be 'Data/dataset_name.csv'.
 
 
 
