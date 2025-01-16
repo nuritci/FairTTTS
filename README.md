@@ -1,7 +1,5 @@
 # FairTTTS
-Here is the README file for your GitHub library:
 
-```markdown
 # FairTTTS: Bias Mitigation via Post-Processing Decision Adjustment
 
 ## Overview
@@ -77,14 +75,3 @@ Extensive testing across seven benchmark datasets shows:
 
 In contrast, competing methods often result in reduced accuracy (-0.42%).
 
-## Contributing
-Contributions are welcome! Please fork the repository and submit a pull request for any improvements or new features.
-
-## License
-This repository is licensed under the MIT License. See the LICENSE file for details.
-
-## Contact
-For questions or collaboration opportunities, please reach out via the Issues section or email [your-email@example.com].
-```
-
-Let me know if you'd like to modify or add more details to the README.
