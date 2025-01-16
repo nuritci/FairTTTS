@@ -1,9 +1,6 @@
 # FairTTTS: Bias Mitigation via Post-Processing Decision Adjustment
 
 ## Overview
-Algorithmic decision-making is increasingly used in critical domains, yet biases in machine learning models can produce discriminatory outcomes. FairTTTS is a post-processing bias mitigation method designed to improve fairness while maintaining or enhancing predictive performance. It is inspired by the Tree Test Time Simulation (TTTS) technique and provides a fairness adjustment step for decision trees and random forests without requiring model retraining.
-
-### Abstract
 FairTTTS builds on TTTS, originally developed for improving accuracy and robustness against adversarial inputs. By applying a distance-based heuristic at protected attribute nodes, FairTTTS adjusts decisions for unprivileged groups, ensuring fairness. As a post-processing method, it works with pre-trained models, diverse datasets, and fairness metrics. 
 
 Key highlights:
