@@ -27,12 +27,6 @@ The repository includes the following components:
 - **Documentation**:
   - `README.md`: Instructions and details about the repository.
 
-## Installation
-Clone the repository to your local machine:
-```bash
-git clone https://github.com/your-repository/FairTTTS.git
-cd FairTTTS
-```
 
 ## Usage
 To run FairTTTS, execute the respective Python file for your model type, passing the `alpha` parameter:
