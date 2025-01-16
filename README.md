@@ -3,10 +3,8 @@
 ## Overview
 FairTTTS builds on TTTS, originally developed for improving accuracy and robustness against adversarial inputs. By applying a distance-based heuristic at protected attribute nodes, FairTTTS adjusts decisions for unprivileged groups, ensuring fairness. As a post-processing method, it works with pre-trained models, diverse datasets, and fairness metrics. 
 
-Key highlights:
-- **Fairness Improvement**: Achieves an average 20.96% increase in fairness metrics, outperforming related methods.
-- **Accuracy Enhancement**: Improves accuracy by 0.55%, unlike competing methods that reduce it.
-- **Applicability**: Supports various datasets and fairness criteria without requiring retraining.
+
+- **Applicability**: Supports various datasets, model architectures, and fairness criteria without requiring retraining.
 
 ## Repository Structure
 The repository includes the following components:
@@ -39,7 +37,7 @@ python FairTTTSDT.py --alpha <integer>
 ```
 
 ### Parameters
-- `--alpha`: A positive integer greater than 0. Recommended values are between **5 and 10**.
+- `--alpha`: A positive integer greater than 0 that indicates a positive amplification toward fairness. Recommended values are between **5 and 10**.
 
 ### Example
 ```bash
@@ -49,18 +47,5 @@ python FairTTTSRF.py --alpha 7
 ## Data
 The `Data` folder contains benchmark datasets used for evaluating FairTTTS. These include commonly used datasets for fairness research such as `adult.csv` and `compas-scores-two-years_v1.csv`.
 
-## Methodology
-FairTTTS adjusts decisions in decision paths by:
-1. Applying a distance-based heuristic at protected attribute nodes.
-2. Ensuring fairness for unprivileged groups.
-3. Enhancing accuracy and fairness through post-processing adjustments.
 
-The method supports a range of pre-trained models and fairness metrics, making it versatile and easy to integrate.
-
-## Results
-Extensive testing across seven benchmark datasets shows:
-- **Fairness Improvement**: 20.96% average increase.
-- **Accuracy Impact**: +0.55% on average.
-
-In contrast, competing methods often result in reduced accuracy (-0.42%).
 
