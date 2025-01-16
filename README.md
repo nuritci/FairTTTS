@@ -1,5 +1,3 @@
-# FairTTTS
-
 # FairTTTS: Bias Mitigation via Post-Processing Decision Adjustment
 
 ## Overview
